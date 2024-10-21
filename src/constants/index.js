@@ -58,6 +58,49 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: "Auth System: Email Verification & Password Recovery",
+    desc: "A user authentication system enabling secure email verification, password recovery, and welcome email functionality.Users can verify their email with a 6-digit code and recover passwords seamlessly.",
+    subdesc:
+      "Auth system built with React.js,MongoDB,TailwindCSS,Express.js and Node.js",
+    href: "https://mern-advanced-auth-3-dv52.onrender.com/",
+    texture: "/textures/project/project6.mp4",
+    logo: "/assets/proj-6-logo.png",
+    logoStyle: {
+      backgroundColor: "rgba(22, 58, 22, 0.4)", // Dark green with 80% opacity
+      border: "1px solid rgba(29, 54, 32, 0.5)", // More visible green border with 50% opacity
+      boxShadow: "0px 0px 60px 0px rgba(48, 170, 48, 0.14)", // Darker green shadow with 30% transparency
+    },
+
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "MongoDB",
+        path: "assets/mongodb.png",
+      },
+      {
+        id: 4,
+        name: "Expressjs",
+        path: "assets/express.png",
+      },
+      {
+        id: 5,
+        name: "Nodejs",
+        path: "assets/nodejs.png",
+      },
+    ],
+  },
+  {
     title: "3D T-Shirt Customizer",
     desc: "3D T-Shirt Customizer  allows users to change the t-shirt color using a color picker and upload logos or textures from image files for a personalized design experience.",
     subdesc:

@@ -36,14 +36,17 @@ const About = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="/assets/k-stack-final.png"
+              src="/assets/MERN_Stack.png"
               alt="grid-2"
               className="w-full sm:w-[376px] h-fit object-contain"
             />
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in Javascript with a focus on React.js.
+                I specialize in JavaScript, focusing on full-stack development
+                with the MERN stack (MongoDB, Express.js, React.js, Node.js) to
+                build scalable applications with dynamic frontends and robust
+                backends.
               </p>
             </div>
           </div>
@@ -81,7 +84,13 @@ const About = () => {
                 I&apos;m based in Ramapuram , Chennai , India and open to remote
                 work worldwide.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a href="#contact">
+                <Button
+                  name="Contact Me"
+                  isBeam
+                  containerClass="w-full mt-10"
+                />
+              </a>
             </div>
           </div>
         </div>
