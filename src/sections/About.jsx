@@ -26,7 +26,8 @@ const About = () => {
               <p className="grid-headtext"> Hi I'm Kavin</p>
               <p className="grid-subtext">
                 With 1 year of experience , I have honed my skills in Front-end
-                Development , with a focus on creative 3D visuals and websites
+                & Backend Development , with a focus on creative 3D visuals and
+                websites
               </p>
             </div>
           </div>
